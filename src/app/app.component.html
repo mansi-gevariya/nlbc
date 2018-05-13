@@ -1,0 +1,121 @@
+<!-- <body style="background: url('assets/images/imgpsh_fullsize.jpg') top center no-repeat; opacity: 0.5"> -->
+<header></header>
+<content></content>
+<footer></footer>
+<!-- Modal -->
+<div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Sign up to NLBootcamps</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="justify-content-md-center">
+          <div class="form">
+            <form role="form" action="">
+              <div class="input-group">
+                    <span class="input-group-addon">
+                      <i class="fa fa-envelope" aria-hidden="true"></i>
+                    </span>
+                <input autofocus="autofocus" class="form-control" placeholder="Email" value="" name="user[email]" id="user_email_id" type="email">
+              </div>
+              <div class="input-group">
+                    <span class="input-group-addon">
+                      <i class="fa fa-user" aria-hidden="true"></i>
+                    </span>
+                <input class="form-control" placeholder="First Name" name="user[first_name]" id="user_first_name" type="text">
+              </div>
+              <div class="input-group">
+                    <span class="input-group-addon">
+                      <i class="fa fa-user" aria-hidden="true"></i>
+                    </span>
+                <input class="form-control" placeholder="Last Name" name="user[last_name]" id="user_last_name" type="text">
+              </div>
+              <div class="input-group">
+                    <span class="input-group-addon">
+                      <i class="fa fa-venus-mars" aria-hidden="true"></i>
+                    </span>
+                <select class="form-control" required="required" name="user[male]" id="user_male">
+                  <option value="" disabled="" selected="" hidden="">Gender </option>
+                  <option value="true">Male</option>
+                  <option value="false">Female</option>
+                </select>
+              </div>
+              <div class="input-group">
+                    <span class="input-group-addon">
+                      <i class="fa fa-lock" aria-hidden="true"></i>
+                    </span>
+                <input class="form-control" placeholder="Password" name="user[password]" id="user_password_id" type="password">
+              </div>
+              <div class="input-group">
+                    <span class="input-group-addon">
+                      <i class="fa fa-lock" aria-hidden="true"></i>
+                    </span>
+                <input class="form-control" placeholder="Confirm Password" name="user[password_confirmation]" id="user_password_confirmation" type="password">
+              </div><br />
+              <label>You agree to our Terms &amp; Conditions.</label>
+              <input value="Sign up with email" class="btn submit-btn" data-disable-with="Sign up with email" type="submit">
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <div class="or">OR</div>
+        <button class="btn facebook">Sign up with Facebook</button>
+        <table class="alreadyac">
+          <tr>
+            <td>Already have an account?</td>
+            <td><a class="sign-in-link" href="/users/sign_in">Sign in</a></td>
+          </tr>
+        </table><br />
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="signInModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Log in to NLBootcamps</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="justify-content-md-center">
+          <div class="form">
+            <form role="form" action="">
+              <div class="input-group">
+                    <span class="input-group-addon">
+                      <i class="fa fa-envelope" aria-hidden="true"></i>
+                    </span>
+                <input autofocus="autofocus" class="form-control" placeholder="Email" value="" name="user[email]" id="user_email" type="email">
+              </div>
+              <div class="input-group">
+                    <span class="input-group-addon">
+                      <i class="fa fa-lock" aria-hidden="true"></i>
+                    </span>
+                <input class="form-control" placeholder="Password" name="user[password]" id="user_password" type="password">
+              </div><br />
+              <label>You agree to our Terms &amp; Conditions.</label>
+              <input value="Sign up with email" class="btn submit-btn" data-disable-with="Sign up with email" type="submit">
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <div class="or">OR</div>
+        <button class="btn facebook">Sign up with Facebook</button>
+        <table class="alreadyac">
+          <tr>
+            <td>Already have an account?</td>
+            <td><a class="sign-in-link" href="/users/sign_in">Sign in</a></td>
+          </tr>
+        </table><br />
+      </div>
+    </div>
+  </div>
+</div>
